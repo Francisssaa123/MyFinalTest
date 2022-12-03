@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+
+}
+.navbar-brrand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    outline: none;
+    border: 2px solid  rgb(0, 0, 255)
+
+}
+.btn0{
+   height: 40px;
+   width: 40;
+   outline: none;
+   border: none;
+   background: rgb(0, 0, 255);
+   color:white;
+   font-weight: 700 ;
+   border-radius: 60px;
+}
+
+
+#logo{
+    width: 4rem;
+    height: auto;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,auto);
+}
+#base{
+    width: 98.7vw;
+    grid-column: 1/9;
+    grid-row: 1/9;
+}
+#overlay{
+    grid-column: 1/9;
+    grid-row: 1/9;
+    
+    opacity: 0.6;
+}
+.ultron{
+    z-index: 7;
+    grid-column: 2/4;
+    grid-row: 3/8;
+    width: 28vw;
+}
+#ultro{
+    width: 100%;
+}
+.texto{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    grid-column: 5/9;
+    grid-row: 5/6;
+    z-index: 7;
+}
+
+
+h3{
+    font-family: 'Lobster', cursive;
+    color: rgb(0, 0, 255);
+
+}
